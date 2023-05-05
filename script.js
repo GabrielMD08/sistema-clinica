@@ -8,7 +8,7 @@ form.addEventListener('submit', function (event) {
     let userPassword = document.getElementById('user-password').value;
     switch (userEmail, userPassword){
         case userEmail === 'nome@admdente.com.br' && userPassword === '10203040@dente':
-            window.location.assign(adm-)
+            window.location.href = "adm-acess.html";
 
     }
 })
